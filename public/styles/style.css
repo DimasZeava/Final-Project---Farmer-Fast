@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #72ee59;
+    --secondary-color: #56b343;
+    --secondary-color-hover: #448f35;
+    --third-color: #f6f6f6;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --warning-color: #ff0000;
+    --h2-font-size: 39px;
+    --h5-font-size: 20px;
+    --title-font-size: 16px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: var(--third-color);
+}
+
+.header{
+    background-color: var(--third-color);
+    text-align: center;
+    height: 123px;
+    display: flex;
+    justify-content: center;
+}
+
+.header h2{
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+}
+
+.header img{
+    width: 121px;
+    height: 100px;
+    margin-top: 4px;
+}
+
+.header .first{
+    color: var(--primary-color);
+    line-height: 0.6;
+}
+
+.header .second{
+    color: #a6a8c3;
+    line-height: 0.6;
+}
+
+.header .title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+
+.body img {
+    margin-left: 175px;
+}
+
+.body .form-register {
+    background-color: var(--white-color);
+    border-radius: 10px;
+    height: auto;
+    width: 424px;
+}
+
+.floating-input {
+    position: relative;
+}
+
+.floating-input label {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    transition: .3s;
+}
+
+.floating-input input:focus + label,
+.floating-input input:not(:placeholder-shown) + label
+{
+    top: 0;
+    transform: translateY(-50%) scale(.9);
+}
+
+.body .form-register h2 {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 10px;
+}
+
+.body .form-register button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-size: var(--title-font-size);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+
+.body .form-register button:hover {
+    background-color: var(--secondary-color-hover);
+}
+
+.body .form-register p {
+    font-size: var(--title-font-size);
+    font-weight: bold;
+    color: var(--black-color);
+    text-align: center;
+    margin: 10px;
+}
+
+.footer {
+    background-color: var(--third-color);
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h5 {
+    font-size: var(--title-font-size);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
