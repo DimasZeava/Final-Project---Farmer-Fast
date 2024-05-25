@@ -14,6 +14,9 @@
     <title>Document</title>
   </head>
   <body>
+    <?php
+    require('./php/proses_register_penjual.php');
+    ?>
     <div class="container-fluid header">
       <img src="./public/img/icon.png" alt="Farmer Fast icon" />
       <div class="title">

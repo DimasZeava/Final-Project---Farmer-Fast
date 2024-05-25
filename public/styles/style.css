@@ -12,6 +12,11 @@
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
 body{
     background-color: var(--third-color);
 }
