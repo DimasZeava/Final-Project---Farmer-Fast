@@ -22,7 +22,7 @@ require('koneksi.php');
         } else {
             echo "<script>alert('Berhasil mendaftar')</script>";
         }
-        header('Location: homepage_penjual.php');
+        header('Location: index_penjual.php');
         exit();
     }
 ?>

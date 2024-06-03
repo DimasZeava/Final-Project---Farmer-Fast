@@ -1,0 +1,130 @@
+:root {
+    --primary-color: #72ee59;
+    --secondary-color: #56b343;
+    --secondary-color-hover: #448f35;
+    --third-color: #f6f6f6;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --warning-color: #ff0000;
+    --h2-font-size: 39px;
+    --h5-font-size: 20px;
+    --title-font-size: 16px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2{
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    background-color: var(--white-color);
+    padding: 10px;
+}
+
+
+.title {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 10px 0 0 0;
+}
+
+.title .first{
+    color: var(--primary-color);
+    line-height: 0.6px;
+}
+
+.title .second{
+    color: #a6a8c3;
+    line-height: 0.6px;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 125px;
+}
+
+.search_bar .search_input {
+    width: 450px;
+    padding: 10px;
+    border-color: var(--primary-color);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: var(--title-font-size);
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.dropdown .dropdown-toggle{
+    background-color: var(--primary-color);
+    padding: 10px 20px 10px 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.authentication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    gap: 10px;
+}
+
+.authentication .login {
+    background-color: var(--primary-color);
+    padding: 10px 35px;
+    border-radius: 20px;
+    border-style: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.authentication .register {
+    padding: 10px 25px;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.authentication .register:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.logged_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile {
+    font-size: var(--h5-font-size);
+    color: var(--primary-color);
+}

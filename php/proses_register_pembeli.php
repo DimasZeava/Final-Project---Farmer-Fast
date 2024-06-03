@@ -22,7 +22,7 @@ require('koneksi.php');
       } else {
         echo "<script>alert('Berhasil mendaftar')</script>";
       } 
-      header('Location: homepage.php');
+      header('Location: ../include/header.php');
       exit;
     }
     ?>

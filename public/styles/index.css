@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #72ee59;
+    --secondary-color: #56b343;
+    --secondary-color-hover: #448f35;
+    --third-color: #f6f6f6;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --warning-color: #ff0000;
+    --h2-font-size: 39px;
+    --h5-font-size: 20px;
+    --title-font-size: 16px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
