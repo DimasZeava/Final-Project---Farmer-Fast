@@ -43,19 +43,16 @@ header {
     font-family: 'Fira Sans Condensed', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: start;
-    margin: 10px 0 0 0;
+    gap: 5px;
 }
 
 .title .first{
     color: var(--primary-color);
-    line-height: 0.6px;
 }
 
 .title .second{
     color: #a6a8c3;
-    line-height: 0.6px;
 }
 
 .search_bar {

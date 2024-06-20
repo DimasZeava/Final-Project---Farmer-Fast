@@ -7,7 +7,43 @@
     --black-color: #000000;
     --warning-color: #ff0000;
     --h2-font-size: 39px;
+    --h4-font-size: 25px;
     --h5-font-size: 20px;
     --title-font-size: 16px;
     font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.card{
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: var(--h5-font-size);
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+.card-price {
+    font-size: var(--h4-font-size);
+    font-weight: bold;
+}
+
+.alamat-penjual {
+    font-size: var(--h5-font-size);
+    font-weight: normal;
+    margin: 5px 0;
 }
