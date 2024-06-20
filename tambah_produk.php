@@ -62,8 +62,8 @@
           <input type="text" name="nama_barang" autofocus="" required="" />
         </div>
         <div>
-          <label>Kategori</label>
-         <input type="text" name="deskripsi" />
+          <label>Deskripsi Barang</label>
+          <input type="text" name="deskripsi" required="" />
         </div>
         <div>
           <label>Harga satuan</label>

@@ -54,7 +54,7 @@
         <tr>
           <th>No</th>
           <th>Nama Barang</th>
-          <th>Kategori</th>
+          <th>Deskripsi</th>
           <th>Harga Satuan</th>
           <th>Stok</th>
           <th>Gambar</th>
